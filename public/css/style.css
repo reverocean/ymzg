@@ -1,0 +1,49 @@
+
+header {
+	background: #000;
+	padding: 15px 0px;
+}
+#logo {
+	float: left;
+}
+.header-content,article {
+	margin:0 auto;
+	width: 1200px;
+}
+.nav {
+	color:#fff;
+	float: right;
+}
+.nav li {
+	float: left;
+	margin-right: 10px;
+}
+header, .video, footer {
+	height: 100px;
+	border: 1px black solid;
+	
+	text-align: center;
+	margin-bottom: 20px;
+}
+.left-pannel{
+	float:left;
+	width:800px;
+}
+.right-pannel {
+	float: right;
+	width: 366px;
+	border: 1px solid #000;
+
+}
+
+.carousel-inner .item {
+	height: 400px;
+	text-align: center;
+}
+ .item img {
+	width: 100%;
+
+ }
+ .clear{
+ 	overflow:hidden;
+ }
