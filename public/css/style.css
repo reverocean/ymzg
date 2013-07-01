@@ -6,7 +6,7 @@ header {
 #logo {
     float: left;
 }
-.header-content,article {
+.header-content, article, .footer-content {
     margin:0 auto;
     width: 1200px;
 }
@@ -20,9 +20,9 @@ header {
 }
 header,footer{
     height: 100px;
-    border: 1px black solid;
 
-    text-align: center;
+}
+header, article {
     margin-bottom: 20px;
 }
 .left-pannel{
@@ -59,6 +59,12 @@ header,footer{
 .video {
     position: relative;
 }
+footer {
+    background: #E8EDF1;
+    color:#584029;
+    padding: 20px 0px;
+}
+
 .clear{
     overflow:hidden;
 }
